@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>My Tribute Page</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  </head>
-  <style>
-    ul{
-      text-align: center;
-    }
 
+    <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+     <![endif]-->
+  </head>
+
+  <style>
+
+  .image-container {
+    background-color: white;
+    border-radius: 2%;
+  }
+
+  .image-style {
+    background-color: black;
+    border-radius: 2%;
+    padding: 10px;
+
+  }
+  p{
+
+  }
 
   </style>
-<body>
-<div class="container-fluid">
-  <div class="well">
+
+  <body>
     <script src="js/jquery-3.1.1.min.js"></script>
     <script src="js/bootstrap.js"></script>
 
-    <h1 class="text-primary text-center">Name Here</h1>
-    <h3 class="text-primary text-center">Description</h3>
-      <div>
-        <ul>
-          <li>cat nip</li>
-          <li>laser pointers</li>
-          <li>lasagna</li>
-        </ul>
+    <div class="container">
+      <div class="well">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h1>Name Here</h1>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h2>Description</h2>
+          </div>
+        </div>
+
+        <div class="well row text-center image-container">
+          <div class="col-xs-12 text-center image-style">
+            <a href="#"><img class="image-style" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+          </div>
+
+          <p class="col-xs-12 text-center"> Image Description </p>
+        </div>
+
+
+        <div class="row">
+          <div class="col-xs-12 text-center">
+            <h3>Here's a time line of Dr. Borlaug's life:</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs-12 col-xs-offset-4">
+            <ul>
+              <li>cat nip</li>
+              <li>laser pointers</li>
+              <li>lasagna</li>
+              <li>asdf</li>
+            </ul>
+          </div>
+
+        </div>
       </div>
     </div>
-</div>
-</body>
+  </body>
 </html>
